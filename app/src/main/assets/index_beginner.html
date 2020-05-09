@@ -1,0 +1,19 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="minesweeper.css">
+</head>
+<body style="background-color:lightgray;">
+<p id='mine-count'></p>
+<div id="minesweeper-main" class="no-highlight">
+    <div id="game-container"></div>
+</div>
+
+<script src='jquery-1.11.1.min.js'></script>
+<script src='minesweeper.js'></script>
+
+<script>
+    var ms = new Minesweeper('#minesweeper-main');
+    ms.init(ms.SETTINGS.BEGINNER);
+  </script>
+</body>
+</html>
