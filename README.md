@@ -5,4 +5,4 @@ This Android game is build for a Tutorial to understand how we can use web view 
 - Install Android Studio
 - Open The Project With Android Studio & run
 
-# Happy Coding... ;)
+# Happy Coding.... ;)
